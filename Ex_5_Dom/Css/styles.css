@@ -1,0 +1,17 @@
+div {
+    padding : 5px;
+    margin: 5px;
+    border: solid 1px black;
+    width: fit-content;
+}
+
+.L1
+{
+    background: lightblue;
+    text-decoration: line-through;
+}
+.Arial
+{
+    font-family: Arial;
+}
+

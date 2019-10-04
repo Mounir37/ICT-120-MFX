@@ -28,13 +28,20 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="PHP&#10;HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript&#10;HTML&#10;PHP" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Ex_2" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\ICT-120-MFX\Ex_2" />
       <recent name="C:\xampp\ICT-120-MFX" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\ICT-120-MFX\Ex_5_Dom\code" />
+      <recent name="C:\xampp\ICT-120-MFX\Ex_4_Formulaire" />
+      <recent name="C:\xampp\ICT-120-MFX\Ex_3_Lecture_champs_de_texte" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -72,6 +79,11 @@
       <workItem from="1568295639267" duration="74000" />
       <workItem from="1568295724992" duration="2773000" />
       <workItem from="1569240151561" duration="4295000" />
+      <workItem from="1569247171284" duration="45000" />
+      <workItem from="1569506954133" duration="331000" />
+      <workItem from="1569507306104" duration="2182000" />
+      <workItem from="1569844658349" duration="4736000" />
+      <workItem from="1570189309049" duration="4878000" />
     </task>
     <servers />
   </component>

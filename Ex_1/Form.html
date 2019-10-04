@@ -15,9 +15,9 @@
 
     function chkTerroristClick()
     {
-
-          alert('attention Donald'+ textFN.value +'est un terroriste');
-
+        if(chkTerrorist.checked) {
+            alert('attention Donald' + textFN.value + 'est un terroriste');
+        }
     }
 
     chkTerorist.addEventListener("click", chkTerroristClick);
