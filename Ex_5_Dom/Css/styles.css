@@ -10,8 +10,16 @@ div {
     background: lightblue;
     text-decoration: line-through;
 }
+
 .Arial
 {
     font-family: Arial;
+}
+
+.YES
+{
+    background-color: greenyellow;
+    font-size: 29px;
+    color: black;
 }
 
