@@ -38,7 +38,7 @@ function evenement() {
     texte.addEventListener("click", div5delete);
 }
 
-T UNE BITE MEC !!!!!!!!!!!!!!!!!!
+
 
 
 
