@@ -17,6 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -30,18 +32,20 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript&#10;HTML&#10;PHP" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Ex_2" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\ICT-120-MFX\Ex_2" />
-      <recent name="C:\xampp\ICT-120-MFX" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\ICT-120-MFX\Site_Web\Images" />
       <recent name="C:\xampp\ICT-120-MFX\Ex_5_Dom\code" />
       <recent name="C:\xampp\ICT-120-MFX\Ex_4_Formulaire" />
       <recent name="C:\xampp\ICT-120-MFX\Ex_3_Lecture_champs_de_texte" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\ICT-120-MFX\Ex_2" />
+      <recent name="C:\xampp\ICT-120-MFX" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -87,6 +91,7 @@
       <workItem from="1570448194060" duration="6540000" />
       <workItem from="1570796471647" duration="322000" />
       <workItem from="1572267096776" duration="5774000" />
+      <workItem from="1572535152584" duration="2029000" />
     </task>
     <servers />
   </component>
