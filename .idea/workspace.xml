@@ -34,7 +34,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Ex_2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -93,7 +93,8 @@
       <workItem from="1570796471647" duration="322000" />
       <workItem from="1572267096776" duration="5774000" />
       <workItem from="1572535152584" duration="2029000" />
-      <workItem from="1572618669601" duration="2849000" />
+      <workItem from="1572618669601" duration="3654000" />
+      <workItem from="1572871131965" duration="10087000" />
     </task>
     <servers />
   </component>
