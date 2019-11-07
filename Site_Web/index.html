@@ -3,142 +3,196 @@
 <head>
     <meta charset="UTF-8">
     <title>Activité Pékin</title>
-
-    <link rel="stylesheet" type="text/css" href="CSS/styles.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="CSS/styles.css">
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-
+    <script src="JS/code.js"></script>
 </head>
 <body>
-<div id="logo_racc" class="border container-fluid row alert-danger p-0" >
-    <div id="logo" class="col-2 p-0">
-        <img src="Images/logo2lignes_vert.png" height="110" width="219.5"/>
-    </div>
+<div class="container-fluid">
 
-    <div id="racc_recherche" class="col-10 p-0">
-        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <img id="logo" src="Images/logo2lignes_vert.png"/>
+    <div class="row">
+        <div class="col-lg-2 col-sm-2">
+        </div>
 
-            <div class="collapse navbar-collapse p-0" id="navbarColor03" >
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active col-4">
-                        <a class="nav-link" href="#">CPNV
-                            <span class="sr-only">
-                                (current)
-                            </span>
-                        </a>
-                    </li>
-                    <li class="nav-item col-6">
-                        <a class="nav-link" href="#">
-                            Instagram
-                        </a>
-                    </li>
-                    <li class="nav-item col-8">
-                        <a class="nav-link" href="#">
-                            Twitter
-                        </a>
-                    </li>
-                    <li class="nav-item col-10">
-                        <a class="nav-link" href="#">
-                            facebook
-                        </a>
-                    </li>
-                </ul>
-                <form id="recherche" class="form-inline">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Rechercher" aria-label="Rechercher">
-                    <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">
-                        Rechercher
-                    </button>
-                </form>
-            </div>
-        </nav>
+        <div class="col-lg-10 col-sm-10">
+            <nav class="navbar navbar-expand-lg">
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                CPNV
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                Instagram
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                Twitter
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                Facebook
+                            </a>
+                        </li>
+                    </ul>
+                    <form class="form-inline">
+                        <input class="form-control" type="text" placeholder="Rechercher" aria-label="Rechercher">
+                    </form>
+                </div>
+            </nav>
+        </div>
     </div>
 </div>
 
-<div id="racc_menu" class="row col-12 align-content-center p-0">
-    <ul class="nav nav-pills nav-justified">
-        <li class="nav-item">
-            <a class="nav-link" href="#">
-                Info
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link active" href="#">
-                activité
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">
-                transport
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">
-                participant
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">
-                Hébergement
-            </a>
-        </li>
-    </ul>
-</div>
-<div id="titre_contenu" class="p-0">
-    <div id="titre" class="p-0">
-        <nav class="navbar navbar-light white mb-4">
-            <h2>
-                <b>
-                    <u>
-                        Visite touristique <br> pékin
-                    </u>
-                </b>
-            </h2>
-            <button class="navbar-toggler toggler-example black" type="button" data-toggle="collapse" data-target="#navbarSupportedContent40" aria-controls="navbarSupportedContent40" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="white-text">
-                    <i class="fas fa-bars fa-1x">
 
-                    </i>
-                </span>
+<div class="row">
+    <div class="col-lg-12 col-sm-12">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    Info
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">
+                    Activité
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    Transport
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    activité
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    Hébergement
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-12 col-sm-12">
+        <!--Navbar-->
+        <nav class="navbar navbar-light amber lighten-4 mb-4">
+
+            <!-- Navbar brand -->
+            <a class="navbar-brand" href="#">Navbar</a>
+
+            <!-- Collapse button -->
+            <button class="navbar-toggler first-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent20"
+                    aria-controls="navbarSupportedContent20" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="animated-icon1"><span></span><span></span><span></span></div>
             </button>
-            <div class="collapse navbar-collapse p-0" id="navbarSupportedContent40">
+
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent20">
+
+                <!-- Links -->
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">
-                            Home
-                            <span class="sr-only">
-                                (current)
-                            </span>
-                        </a>
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            Features
-                        </a>
+                        <a class="nav-link" href="#">Features</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            Pricing
-                        </a>
+                        <a class="nav-link" href="#">Pricing</a>
                     </li>
                 </ul>
+                <!-- Links -->
+
             </div>
+            <!-- Collapsible content -->
+
         </nav>
-    </div>
-    <div id="contenu" class="col-8 p-0">
-        <br> <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
-    </div>
-    <div id="image" class="col-4 p-0">
-        <img src="Images/Chine-Pekin-825x510.jpg"/>
+        <!--/.Navbar-->
+
+        <!--Navbar-->
+        <nav class="navbar navbar-dark red lighten-1 mb-4">
+
+            <!-- Navbar brand -->
+            <a class="navbar-brand" href="#">Navbar</a>
+
+            <!-- Collapse button -->
+            <button class="navbar-toggler second-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent23"
+                    aria-controls="navbarSupportedContent23" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="animated-icon2"><span></span><span></span><span></span><span></span></div>
+            </button>
+
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent23">
+
+                <!-- Links -->
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                </ul>
+                <!-- Links -->
+
+            </div>
+            <!-- Collapsible content -->
+
+        </nav>
+        <!--/.Navbar-->
+
+        <!--Navbar-->
+        <nav class="navbar navbar-dark  indigo darken-2">
+
+            <!-- Navbar brand -->
+            <a class="navbar-brand" href="#">Navbar</a>
+
+            <!-- Collapse button -->
+            <button class="navbar-toggler third-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent22"
+                    aria-controls="navbarSupportedContent22" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="animated-icon3"><span></span><span></span><span></span></div>
+            </button>
+
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent22">
+
+                <!-- Links -->
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                </ul>
+                <!-- Links -->
+
+            </div>
+            <!-- Collapsible content -->
+
+        </nav>
+        <!--/.Navbar-->
     </div>
 </div>
-
-<img id="cmd_settings" src="Images/929002-200.png" height="25" width="25"/>
 </body>
-<script src="JS/code.js"></script>
+
 </html>
 
 

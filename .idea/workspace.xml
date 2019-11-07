@@ -16,9 +16,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -31,22 +31,22 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript&#10;HTML&#10;PHP" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Ex_2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\ICT-120-MFX\Ex_2" />
-      <recent name="C:\xampp\ICT-120-MFX" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mouni\Documents\GitHub\ICT-120-MFX\Site_Web" />
       <recent name="C:\xampp\ICT-120-MFX\Ex_5_Dom" />
       <recent name="C:\xampp\ICT-120-MFX\Site_Web\Images" />
       <recent name="C:\xampp\ICT-120-MFX\Ex_5_Dom\code" />
       <recent name="C:\xampp\ICT-120-MFX\Ex_4_Formulaire" />
-      <recent name="C:\xampp\ICT-120-MFX\Ex_3_Lecture_champs_de_texte" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\ICT-120-MFX\Ex_2" />
+      <recent name="C:\xampp\ICT-120-MFX" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -95,6 +95,7 @@
       <workItem from="1572535152584" duration="2029000" />
       <workItem from="1572618669601" duration="3654000" />
       <workItem from="1572871131965" duration="10087000" />
+      <workItem from="1573061816726" duration="9817000" />
     </task>
     <servers />
   </component>
