@@ -10,7 +10,7 @@ function init()
     cmd_settings.addEventListener("click", settings);
 }
 
-$(document).ready(function () {
+$(document).ready(function burger() {
 
     $('.first-button').on('click', function () {
 
