@@ -7,7 +7,7 @@ function settings()
 
 function init()
 {
-    cmd_settings.addEventListener("click", settings);
+
 }
 
 $(document).ready(function burger() {

@@ -20,6 +20,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\ICT-120-MFX\Site_Web\Images" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -42,7 +47,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573121575894</updated>
-      <workItem from="1573121578479" duration="910000" />
+      <workItem from="1573121578479" duration="5737000" />
     </task>
     <servers />
   </component>

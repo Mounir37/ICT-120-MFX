@@ -58,7 +58,7 @@ a
     position: absolute;
     height: 3px;
     width: 100%;
-    border-radius: 9px;
+    border-radius: 0px;
     opacity: 1;
     left: 0;
     -webkit-transform: rotate(0deg);
@@ -76,11 +76,11 @@ a
 }
 
 .animated-icon2 span {
-    background: #e3f2fd;
+    background: #ffffff;
 }
 
 .animated-icon3 span {
-    background: #f3e5f5;
+    background: #ffffff;
 }
 
 .animated-icon1 span:nth-child(1) {

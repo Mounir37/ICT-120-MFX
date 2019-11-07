@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <title>Activité Pékin</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+    <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="JS/code.js"></script>
+
 </head>
 <body>
 <div class="container-fluid">
@@ -21,24 +23,24 @@
             <nav class="navbar navbar-expand-lg">
                 <div class="collapse navbar-collapse">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                CPNV
+                        <li class="nav-item col-lg-3 col-sm-3">
+                            <a class="nav-link" href="https://www.cpnv.ch/" target="_blank">
+                                <img src="Images/logo seul vert.png" height=40% width=40%/>
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                Instagram
+                        <li class="nav-item col-lg-3 col-sm-3">
+                            <a class="nav-link" href="https://www.instagram.com/?hl=fr" target="_blank">
+                                <i class="fa fa-instagram" style="font-size:36px"></i>
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                Twitter
+                        <li class="nav-item col-lg-3 col-sm-3">
+                            <a class="nav-link" href="https://twitter.com/?lang=fr" target="_blank">
+                                <i class="fa fa-twitter-square" style="font-size:36px"></i>
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                Facebook
+                        <li class="nav-item col-lg-3 col-sm-3">
+                            <a class="nav-link" href="#" target="_blank">
+                                <i class="fa fa-facebook-square" style="font-size:36px"></i>
                             </a>
                         </li>
                     </ul>
@@ -49,71 +51,175 @@
             </nav>
         </div>
     </div>
-</div>
 
 
-<div class="row">
-    <div class="col-lg-12 col-sm-12">
-        <ul class="nav justify-content-center">
-            <li class="nav-item">
-                <a class="nav-link" href="#">
-                    Info
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" href="#">
-                    Activité
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">
-                    Transport
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">
-                    activité
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">
-                    Hébergement
-                </a>
-            </li>
-        </ul>
+    <div class="border row">
+        <div class="col-lg-12 col-sm-12">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        Info
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">
+                        Activité
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        Transport
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        activité
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        Hébergement
+                    </a>
+                </li>
+            </ul>
+        </div>
     </div>
-</div>
-<div class="row">
-    <div class="col-lg-12 col-sm-12">
-        <nav class="navbar navbar-light amber lighten-4 mb-4">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler first-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent20"
-                    aria-controls="navbarSupportedContent20" aria-expanded="false" aria-label="Toggle navigation">
-                <div class="animated-icon1">
+
+    <div class="row">
+        <div class="col-lg-12 col-sm-12">
+            <nav class="navbar navbar-light amber lighten-4 mb-4">
+                <a class="navbar-brand">
+                    <h2>
+                        <b>
+                            <u>
+                                Visite touristique<br>Sortie à Pékin
+                            </u>
+                        </b>
+                    </h2>
+                </a>
+                <button class="navbar-toggler first-button" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent20"
+                        aria-controls="navbarSupportedContent20" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="animated-icon1">
                     <span>
                     </span>
-                    <span>
+                        <span>
                     </span>
-                    <span>
+                        <span>
                     </span>
+                    </div>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent20">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                modifier
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                Supprimer
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent20">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="row h-100">
+        <div class="col-lg-12 col-sm-12 h-100">
+            <div class="col-lg-10 col-sm-10">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Turpis massa tincidunt dui ut. Tortor posuere ac ut consequat semper viverra
+                    nam
+                    libero justo. Eget dolor morbi non arcu risus quis varius quam. Quis ipsum suspendisse ultrices
+                    gravida
+                    dictum fusce ut placerat. Felis bibendum ut tristique et. Pellentesque habitant morbi tristique
+                    senectus
+                    et. At in tellus integer feugiat scelerisque varius morbi enim nunc. Libero nunc consequat interdum
+                    varius. Id aliquet lectus proin nibh nisl. Interdum consectetur libero id faucibus nisl. Feugiat in
+                    ante
+                    metus dictum. Rhoncus dolor purus non enim praesent elementum facilisis leo vel. Libero justo
+                    laoreet
+                    sit amet cursus. Sed viverra ipsum nunc aliquet bibendum enim facilisis. Sapien eget mi proin sed
+                    libero
+                    enim sed faucibus turpis.
+                </p>
+                <p>
+                    Viverra nibh cras pulvinar mattis nunc sed. Blandit aliquam etiam erat velit scelerisque in dictum.
+                    Semper risus in hendrerit gravida rutrum quisque non. Vitae et leo duis ut diam quam nulla
+                    porttitor.
+                    Donec massa sapien faucibus et molestie ac feugiat sed lectus. Pretium aenean pharetra magna ac
+                    placerat
+                    vestibulum. Sed elementum tempus egestas sed. Pretium aenean pharetra magna ac placerat vestibulum
+                    lectus mauris. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget. Non blandit
+                    massa enim nec dui nunc. Malesuada nunc vel risus commodo viverra. Blandit aliquam etiam erat velit
+                    scelerisque in dictum non. Neque gravida in fermentum et sollicitudin ac orci phasellus. Aliquam
+                    purus
+                    sit amet luctus. Viverra nibh cras pulvinar mattis. Nullam eget felis eget nunc lobortis. Vitae
+                    congue
+                    eu consequat ac felis donec et odio pellentesque. Viverra maecenas accumsan lacus vel facilisis.
+                    Faucibus purus in massa tempor nec feugiat nisl pretium fusce.
+                </p>
+                <p>
+                    Sed egestas egestas fringilla phasellus faucibus. Et molestie ac feugiat sed lectus vestibulum
+                    mattis
+                    ullamcorper velit. Sit amet mattis vulputate enim nulla aliquet porttitor lacus. Nec ultrices dui
+                    sapien
+                    eget mi. Id cursus metus aliquam eleifend mi. Interdum velit euismod in pellentesque massa placerat
+                    duis. Nec feugiat nisl pretium fusce. Diam phasellus vestibulum lorem sed risus ultricies tristique
+                    nulla aliquet. Egestas egestas fringilla phasellus faucibus scelerisque eleifend. In eu mi bibendum
+                    neque egestas. Sem et tortor consequat id porta nibh venenatis cras. Curabitur vitae nunc sed velit
+                    dignissim sodales ut.
+                </p>
+                <p>
+                    Diam sollicitudin tempor id eu nisl nunc mi. Sed adipiscing diam donec adipiscing tristique risus
+                    nec
+                    feugiat in. Bibendum est ultricies integer quis auctor elit sed vulputate mi. Donec et odio
+                    pellentesque
+                    diam volutpat. Laoreet sit amet cursus sit amet dictum. In aliquam sem fringilla ut morbi tincidunt
+                    augue. Gravida neque convallis a cras semper. Elementum nibh tellus molestie nunc non blandit. Vitae
+                    congue eu consequat ac felis donec. Amet nulla facilisi morbi tempus iaculis. Non sodales neque
+                    sodales
+                    ut etiam sit amet nisl purus. Molestie at elementum eu facilisis sed odio. Morbi tristique senectus
+                    et
+                    netus et malesuada. Netus et malesuada fames ac.
+                </p>
+                <p>
+                    Risus at ultrices mi tempus. Lectus mauris ultrices eros in cursus turpis massa tincidunt. Risus
+                    nullam
+                    eget felis eget nunc lobortis mattis. Egestas egestas fringilla phasellus faucibus scelerisque
+                    eleifend
+                    donec pretium. Quam viverra orci sagittis eu. Mattis vulputate enim nulla aliquet porttitor lacus
+                    luctus
+                    accumsan. Venenatis urna cursus eget nunc. Lobortis scelerisque fermentum dui faucibus. Tristique
+                    senectus et netus et malesuada. Proin sed libero enim sed faucibus turpis in. Pretium quam vulputate
+                    dignissim suspendisse in est ante in. Aliquet nibh praesent tristique magna sit amet purus. Ultrices
+                    tincidunt arcu non sodales. Sit amet volutpat consequat mauris nunc congue. In hendrerit gravida
+                    rutrum
+                    quisque non.
+                </p>
+                <p>
+                    Varius vel pharetra vel turpis nunc eget lorem dolor sed. Auctor neque vitae tempus quam
+                    pellentesque.
+                    Montes nascetur ridiculus mus mauris vitae ultricies leo integer. Nisl nunc mi ipsum faucibus vitae
+                    aliquet nec ullamcorper. Lobortis elementum nibh tellus molestie nunc non blandit massa enim.
+                    Consectetur libero id faucibus nisl tincidunt eget nullam non. Aliquet nibh praesent tristique
+                    magna.
+                    Ornare aenean euismod elementum nisi. Quam vulputate dignissim suspendisse in est ante in nibh.
+                    Tellus
+                    integer feugiat scelerisque varius morbi enim nunc faucibus. Sed faucibus turpis in eu mi. Posuere
+                    sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper. Tincidunt arcu non sodales
+                    neque
+                    sodales ut etiam sit.
+                </p>
             </div>
-        </nav>
+        </div>
     </div>
 </div>
+
 </body>
 
 </html>
