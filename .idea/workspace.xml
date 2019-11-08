@@ -13,15 +13,24 @@
       <executable />
     </execution>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1THeibiv9TBBavkGlcaMqgvHux1" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\ICT-120-MFX\Site_Web" />
       <recent name="C:\xampp\ICT-120-MFX\Site_Web\Images" />
     </key>
   </component>
@@ -48,6 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1573121575894</updated>
       <workItem from="1573121578479" duration="5737000" />
+      <workItem from="1573223435536" duration="6658000" />
     </task>
     <servers />
   </component>
@@ -59,7 +69,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

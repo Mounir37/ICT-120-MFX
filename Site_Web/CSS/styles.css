@@ -7,6 +7,13 @@ a
 {
     font-size: 25px;
 }
+
+h1{
+    text-align: center;
+}
+.border{
+    border-width: 10px;
+}
 .navbar.navbar-1 .navbar-toggler-icon {
     background-image: url('https://mdbootstrap.com/img/svg/hamburger6.svg?color=000');
 }
@@ -204,3 +211,5 @@ a
     top: 21px;
     left: 8px;
 }
+
+
