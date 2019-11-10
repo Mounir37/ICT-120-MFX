@@ -14,7 +14,7 @@ function init()
 {
 
 }
-
+<!-- code du fonctionnement du menu burger déroulant -->
 $(document).ready(function burger() {
 
     $('.first-button').on('click', function () {
@@ -31,10 +31,10 @@ $(document).ready(function burger() {
     });
 });
 
-// Get the modal
+//code du modal pop-up
 var modal = document.getElementById("myModal");
 
-// Get the image and insert it inside the modal - use its "alt" text as a caption
+//gere tout le contenu du modal
 var img = document.getElementById("myImg");
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
@@ -47,7 +47,7 @@ img.onclick = function(){
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks on <span> (x), close the modal
+//fermeture du modal pop-up
 span.onclick = function() {
     modal.style.display = "none";
 }
