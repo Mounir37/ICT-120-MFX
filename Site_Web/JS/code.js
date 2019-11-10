@@ -1,5 +1,10 @@
+<!--Titre:      Site_Web_Exa
+    Auteur:     Mounir Fiaux
+    Date:       10.11.19
+    Version:    0.9
+-->
 document.addEventListener("DOMContentLoaded", init);
-
+linkObject.disabled = true;
 function settings()
 {
 
@@ -46,3 +51,4 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function() {
     modal.style.display = "none";
 }
+
