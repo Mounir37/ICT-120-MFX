@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a3e8ffd-b942-4f8e-ac52-97ee1484f7e0" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,10 +23,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1THeibiv9TBBavkGlcaMqgvHux1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ICT-120-EXA" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Projet-Web-MFX/CSUNVB" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -35,15 +39,15 @@
       <recent name="C:\xampp\ICT-120-MFX\Site_Web\Images" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -64,6 +68,9 @@
       <workItem from="1573421211804" duration="4675000" />
       <workItem from="1573803226226" duration="4541000" />
       <workItem from="1573810259097" duration="66000" />
+      <workItem from="1583246866899" duration="1237000" />
+      <workItem from="1583401902037" duration="309000" />
+      <workItem from="1583402218725" duration="14000" />
     </task>
     <servers />
   </component>
@@ -82,5 +89,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="666" y="118" key="FileChooserDialogImpl" timestamp="1583402230385">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="666" y="118" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583402230385" />
+    <state x="581" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1583402224533">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="581" y="186" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583402224533" />
   </component>
 </project>
